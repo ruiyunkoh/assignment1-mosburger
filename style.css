@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  margin: 0;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.navbar-brand > img {
+  height: 60px;
+  width: 100px;
+}
+
+.partner-img > ul > li {
+  display: inline-block;
+}
+
+.collapse-bar {
+  font-size: 2rem;
+}
+
+/* Food partner small screen*/
+
+.food-partner {
+  /* border: solid black; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.food-partner > h5 {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(34, 33, 32);
+}
+
+.foodpartner-img > ul {
+  padding: 0;
+}
+.foodpartner-img > ul > li {
+  display: inline-block;
+}
+
+.foodpartner-img > ul > li > img {
+  height: 50px;
+}
+
+/* Section highlight */
+
+.row {
+  width: 100%;
+  /* margin: 0; */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.row > img {
+  height: 400px;
+  width: 100%;
+}
+
+.overlay {
+  height: 400px;
+  width: 100%;
+  background-color: rgba(221, 215, 215, 0.452);
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  color: black;
+}
+
+#text {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(34, 33, 32);
+}
+
+#text > p {
+  line-height: 0.1;
+}
+
+/* Menu */
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Toggle */
+
+.toggle {
+  /* border: solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.toggle > ul {
+  /* border: solid red; */
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.toggle > ul > li {
+  display: inline-block;
+  background-color: rgb(223, 174, 41);
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-size: 0.7rem;
+  width: 100px;
+}
+
+.toggle > ul > li:hover {
+  background-color: grey;
+}
+
+/* Menu items */
+.menu-items {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.menu-items > div {
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card {
+  width: 8rem;
+  height: 14rem;
+}
+
+.card > img {
+  padding: 20px;
+}
+
+h6 {
+  font-size: smaller;
+}
+
+/* Connect */
+
+h5 {
+  font-family: "Permanent Marker", cursive;
+}
+
+/* ipad */
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+  .toggle {
+    max-width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .toggle > ul {
+    /* border: solid black; */
+    max-width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1200px) {
+}
